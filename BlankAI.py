@@ -1,12 +1,5 @@
-Main module = 0
-Therapy module = 1
-Counter-Argument Module =  2
-
 import openai
-
 import sys
-import time
-import datetime
 
 def chat_openai(prompt) -> dict:
     description = " "
@@ -60,8 +53,6 @@ def AI_Print:
                 break
         else:
             break
-
-    log_file.close()  # Close the log file
 
 
 AI_Print()
